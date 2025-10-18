@@ -202,6 +202,8 @@ button {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 #Box-Container:hover {
@@ -211,7 +213,7 @@ button {
 }
 
 #number {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: #2f80ed;
 }
@@ -277,7 +279,7 @@ button {
     background: linear-gradient(to right, #3498db, #2f80ed);
 }
 
-/* SKILL GRADIENT STYLES */
+
 .lua {
     background: linear-gradient(to right, #3a3cff, #6e5fd7);
 }
@@ -321,12 +323,6 @@ button {
 #cc {
     cursor: pointer;
     color: blue;
-}
-
-@supports (-webkit-touch-callout: none) {
-    section {
-        min-height: -webkit-fill-available;
-    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -397,7 +393,7 @@ button {
     }
 
     #Box-Container {
-        width: 95%;
+        width: 80%;
         padding: 20px 15px;
         margin: 20px auto;
     }
