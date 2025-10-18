@@ -394,4 +394,15 @@ button {
     .skill-percent {
         margin-top: 5px;
     }
+
+    .skills-container {
+        grid-template-columns: 1fr !important;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .skill-box {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
