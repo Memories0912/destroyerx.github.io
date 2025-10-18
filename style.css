@@ -179,7 +179,6 @@ button {
     margin: 60px;
 }
 
-/* BACKGROUND + OVERLAY */
 .background {
     position: fixed;
     width: 100%;
@@ -194,7 +193,6 @@ button {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* BOX CONTAINER */
 #Box-Container {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.2);
