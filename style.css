@@ -284,27 +284,6 @@ button {
     background: linear-gradient(to right, #3498db, #2f80ed);
 }
 
-.progress-fill.ae {
-    width: 90%;
-    background: linear-gradient(to right, #d400ff, #181818);
-}
-
-.progress-fill.ps {
-    width: 85%;
-    background: linear-gradient(to right, #0004ff, #181818);
-}
-
-.progress-fill.pp {
-    width: 85%;
-    background: linear-gradient(to right, #9b59b6, #8e44ad);
-}
-
-.progress-fill.lua {
-    width: 61%;
-    background: linear-gradient(to right, #3a3cff, #6e5fd7);
-}
-
-
 .lua {
     background: linear-gradient(to right, #3a3cff, #6e5fd7);
 }
