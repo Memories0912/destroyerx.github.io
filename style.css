@@ -112,15 +112,20 @@ body {
 }
 
 section {
-    height: 100vh;
-    padding: 0;
+    min-height: 100vh;
+    padding: 0 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    flex-direction: column;
     text-align: center;
-    line-height: 0.8;
+    line-height: 1.2;
+    gap: 20px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    position: relative;
+    z-index: 10;
 }
 
 h1,
@@ -171,7 +176,7 @@ button {
 
 .gay {
     font-size: 100px;
-    line-height: 0.1;
+    line-height: 1.0;
 }
 
 #ex,
@@ -279,6 +284,26 @@ button {
     background: linear-gradient(to right, #3498db, #2f80ed);
 }
 
+.progress-fill.ae {
+    width: 90%;
+    background: linear-gradient(to right, #d400ff, #181818);
+}
+
+.progress-fill.ps {
+    width: 85%;
+    background: linear-gradient(to right, #0004ff, #181818);
+}
+
+.progress-fill.pp {
+    width: 85%;
+    background: linear-gradient(to right, #9b59b6, #8e44ad);
+}
+
+.progress-fill.lua {
+    width: 61%;
+    background: linear-gradient(to right, #3a3cff, #6e5fd7);
+}
+
 
 .lua {
     background: linear-gradient(to right, #3a3cff, #6e5fd7);
@@ -334,7 +359,7 @@ button {
     section {
         font-size: 1em;
         padding: 20px 10px;
-        line-height: 1.4;
+        line-height: 1.7;
     }
 
     h1,
@@ -407,5 +432,54 @@ button {
         font-size: 13px;
         line-height: 1.4;
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 1439px) {
+    body {
+        line-height: 1.5;
+        font-size: 17px;
+    }
+
+    section {
+        line-height: 1.6;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 1279px) {
+    body {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+
+    section {
+        line-height: 1.6;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1023px) {
+    body {
+        line-height: 1.5;
+        font-size: 15px;
+    }
+
+    section {
+        line-height: 1.5;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 20px;
     }
 }
